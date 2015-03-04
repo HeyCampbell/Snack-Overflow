@@ -1,0 +1,62 @@
+<div id='nom-show'>
+
+  <div class="row">
+
+
+    <div class="large-9 columns" role="content">
+
+        <article class="all-of-nom-stuff">
+          <div class="nom-title">
+            <h3><%= @nom.title %></h3>
+          </div>
+          <div class="tasty-nasty">
+            <%= link_to "It's So Tasty!", nom_up_path(@nom.id), class: 'button radius success' %><br />
+            <%= link_to "That's Nasty!", nom_down_path(@nom.id), class: 'button radius alert'%>
+          </div>
+          <div class="nom-nom-info">
+            <%= image_tag(@nom.pic_url, size: "200x200", alt: @nom.title, class: 'nom-pic') %>
+            <h5>Brownie Points: <%= @nom.score %></h5>
+            <h5><%= @nom.review %></h5>
+
+            <% if item_editable?(@nom) %>
+            <%= link_to "Edit", edit_nom_path%> | <%= link_to 'Delete', nom_path(@nom.id), method: :delete %>
+            <% end %>
+          </div>
+        </article>
+      </div>
+
+      <aside class="large-3 columns">
+
+        <h4>Nom`d by:</h4>
+        <h4><%= link_to @nom.user.username, user_show_path(@nom.user) %></h4>
+        <p><%= time_ago_in_words @nom.created_at %> ago</p>
+        <h5>Tags</h5>
+        <ul class="nom-tags">
+          <%= render :partial => 'shared/tag_index', :locals => {:tags => @nom.tags.all} %>
+          <%= render :partial => 'shared/new_tag_form'%>
+        </ul>
+
+
+      </aside>
+
+
+      <div class="large-12 columns">
+        <div class="nom-comment-form">
+          <%= render :partial => 'shared/new_comment_form', :locals => {:nom_id => @nom.id} %>
+        </div>
+        <ul class="comments-on-noms">
+          <% @nom.comments.each do |com| %>
+            <li class="comment-list"><%= render :partial => 'shared/show_comment', :locals => {:comment => com} %></li>
+
+            <% end %>
+          </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
