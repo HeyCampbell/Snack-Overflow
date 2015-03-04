@@ -4,21 +4,17 @@ Snack Overflow
 
 ## Team Members ##
 
- - Project Buzzkiller: Dionne
- - Project Co-Buzzkiller: David
- - Product Manager: Danger
- - Snack Director: D'Scott
- - D'Bugger: D'Mai
+ - Project Buzzkiller: [Dionne](https://github.com/SputterPuttRedux)
+ - Project Co-Buzzkiller: [David](https://github.com/dlrifkin)
+ - Product Manager: [Danger](https://github.com/heycampbell)
+ - Snack Director: [D'Scott](https://github.com/sjenriquez)
+ - D'Bugger: [D'Mai](https://github.com/mxngyn)
 
 ## Goals ##
 
  - Achieve functional minimum viable product
  - Strengthen our weaknesses
  - Learn how to work in an agile team environment
-
-## Trello ##
-
- - https://trello.com/b/NMK29LUQ/snackoverflow
 
 ## MVP User Stories ##
 
