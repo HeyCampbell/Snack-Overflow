@@ -18,7 +18,7 @@ Snack Overflow
 
 ## Trello ##
 
- - https://trello.com/b/NMK29LUQ/snackoverflow
+ - [Snack Overflow Demo](http://snack-overflow.herokuapp.com/)
 
 ## MVP User Stories ##
 
