@@ -1,14 +1,16 @@
 Snack Overflow
 ===================
 
+A Stack overflow clone where users can share their favorite snacks and reviews.
+
 
 ## Team Members ##
 
- - Project Buzzkiller: Dionne
- - Project Co-Buzzkiller: David
- - Product Manager: Danger
- - Snack Director: D'Scott
- - D'Bugger: D'Mai
+ - Project Buzzkiller: [Dionne](https://github.com/SputterPuttRedux)
+ - Project Co-Buzzkiller: [David](https://github.com/dlrifkin)
+ - Product Manager: [Danger](https://github.com/HeyCampbell)
+ - Snack Director: [D'Scott](https://github.com/sjenriquez)
+ - D'Bugger: [D'Mai](https://github.com/mxngyn)
 
 ## Goals ##
 
